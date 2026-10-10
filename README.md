@@ -16,6 +16,7 @@ The form collects the user's name, email address, website URL, comment, and gend
 ## 2. Architectural Diagram
 
 The following diagram illustrates how the website works:
+![Signup Form Website Architecture](architecture.png)
 
 
 ### Architecture Components
@@ -61,7 +62,7 @@ If the database query succeeds, the website displays:
 - The submitted website URL.
 - The submitted comment.
 - The selected gender.
-
+![Signup Form Website Architecture](output.png)
 ### Error Output
 
 If the database connection or insertion fails, the application displays an error message.
