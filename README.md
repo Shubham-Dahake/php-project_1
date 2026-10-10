@@ -28,25 +28,34 @@ The following diagram illustrates how the website works:
 
 ## 3. Input
 
-The website accepts the following information from the user:
+The signup form collects the following information from the user.
 
-| Field         | Description                    | Input Type 
-
-| Name          | User's full name               | Text 
-| Email         | User's email address           | Email 
-| Website       | User's website URL             | URL 
-| Comment       | Additional information         | Textarea 
-| Gender        | User's selected gender         | Radio button 
+| Field | Description | Input Type |
+|---|---|---|
+| Name | User's full name | Text |
+| Email | User's email address | Email |
+| Website | User's website URL | URL |
+| Comment | Additional information | Textarea |
+| Gender | User's selected gender | Radio Button |
 
 ### Input Process
 
-1. The user opens the signup form.
-2. The user enters the required details.
-3. The user selects a gender.
-4. The user clicks the Submit button.
-5. The form sends the information to `submit.php` using the POST method.
+1. The user opens `signup.html` in a web browser.
+2. The user enters their name and email address.
+3. The user optionally enters a website URL and comment.
+4. The user selects their gender.
+5. The user clicks the **Submit** button.
+6. The form sends the information to `submit.php` using the HTTP POST method.
 
-The name, email, and gender fields are marked as required in the HTML form.
+### Input Validation
+
+- Name and email are required fields.
+- Gender selection is required.
+- The email field checks for a valid email format in the browser.
+- The website field checks for a valid URL format when a value is entered.
+
+**Note:** These validations are performed by the browser. Server-side validation should also be implemented in PHP for better security.
+
 
 ## 4. Output
 
