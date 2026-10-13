@@ -88,7 +88,8 @@ If the database connection or insertion fails, the application displays an error
 
 The submitted information is displayed on the result page using PHP's `htmlspecialchars()` function to help prevent HTML injection when rendering these values.
 
-Data Storage Verification: Verify that the submitted data has been successfully stored in the MariaDB `users` table.
+### Data Store Verification: 
+Verify that the submitted data has been successfully stored in the MariaDB `users` table.
 
 <img width="1917" height="530" alt="Screenshot 2026-10-13 094502" src="https://github.com/user-attachments/assets/aeeaa7c7-302a-4945-aa18-e7c5fb6d6593" />
 
