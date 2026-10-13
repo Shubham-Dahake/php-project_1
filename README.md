@@ -16,7 +16,9 @@ The form collects the user's name, email address, website URL, comment, and gend
 ## 🏗️ Architectural Diagram
 
 The following diagram illustrates how the website works:
-![Signup Form Website Architecture](Architecture.png)
+
+![Uploading PHP Signup Form AWS Architecture Diagram.png…]()
+
 
 
 ### Architecture Components
