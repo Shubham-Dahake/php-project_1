@@ -19,6 +19,8 @@ The following diagram illustrates how the website works:
 
 <img width="1672" height="941" alt="PHP Signup Form AWS Architecture Diagram" src="https://github.com/user-attachments/assets/65ccdb92-6219-4fde-9523-d9390c53b92b" />
 
+User/Browser → Nginx Web Server → PHP-FPM (submit.php) → MariaDB (FCT database, users table) → Success Page
+
 
 
 
