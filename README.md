@@ -116,7 +116,8 @@ sudo yum install nginx mariadb105-server php git -y
 ### 4. Start and enable the services
 
 ```bash
-sudo systemctl enable --now nginx mariadb
+sudo systemctl start nginx mariadb
+sudo systemctl enable nginx mariadb
 ```
 
 ### 5. Clone the repository from GitHub
